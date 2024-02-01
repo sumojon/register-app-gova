@@ -15,7 +15,7 @@ pipeline {
 
         stage("Checkout from SCM"){
                 steps {
-                    git branch: 'main', credentialsId: 'github', url: 'https://github.com/sumojon/feb1st2024.git'
+                    git branch: 'main', credentialsId: 'github', url: 'https://github.com/sumojon/register-app-gova.git'
          }
         }
 
